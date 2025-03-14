@@ -10,21 +10,21 @@ This project is a machine learning project that aims to perform sentiment analys
 
 - **Classification Models:**
 
- Decision Tree
+1- Decision Tree
 
- K-Nearest Neighbors (KNN)
+2- K-Nearest Neighbors (KNN)
 
- Stochastic Gradient Descent (SGD)
+3- Stochastic Gradient Descent (SGD)
 
- Naive Bayes
+4- Naive Bayes
 
- Support Vector Machines (SVM)
+5- Support Vector Machines (SVM)
 
- Random Forest
+6- Random Forest
 
- Logistic Regression
+7- Logistic Regression
 
- Gradient Boosting
+8- Gradient Boosting
 
 - **Model Optimization:** Hyperparameter optimization with Grid Search.
 
