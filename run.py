@@ -28,7 +28,7 @@ nbParam = {'Classifier':Classifier.NB}
 svmParam = {'Classifier':Classifier.SVM}
 randforestParam = {'Classifier':Classifier.RANDFOREST}
 logregParam = {'Classifier':Classifier.LOGREG}
-gradboostingParam = {'Classifier':Classifier.GRADBOOSTING} # Benim eklediğim kod
+gradboostingParam = {'Classifier':Classifier.GRADBOOSTING} 
 
 
 gridParamDecisionTree = { 
@@ -91,7 +91,7 @@ gridParamLogisticRegression = {
 
 # Benim eklediğim kod
 gridParamGradientBoosting = { 
-    'TFIDF__max_features': [5000, 10000, 15000],  # Benim eklediğim kod
+    'TFIDF__max_features': [5000, 10000, 15000],  
     'TFIDF__ngram_range': [(1, 1), (1, 2)],       
     'GRADBOOSTING__n_estimators': [100, 200],  
     'GRADBOOSTING__learning_rate': [0.01, 0.1, 0.2],   
@@ -120,9 +120,8 @@ start = time()
 #trainer.save_model(best_randomforest_model, 'models/best_randomforest_model.pkl')
 best_logisticregression_model = trainer.grid_search(tfidfParam, logregParam, gridParamLogisticRegression)
 trainer.save_model(best_logisticregression_model, 'models/best_logisticregressin_model.pkl')
-#best_gradientboosting_model = trainer.grid_search(tfidfParam, gradboostingParam, gridParamGradientBoosting) # Benim eklediğim kod
-#trainer.save_model(best_gradientboosting_model, 'models/best_gradientboosting_model.pkl') # Benim eklediğim kod
-
+#best_gradientboosting_model = trainer.grid_search(tfidfParam, gradboostingParam, gridParamGradientBoosting) 
+#trainer.save_model(best_gradientboosting_model, 'models/best_gradientboosting_model.pkl') 
 
 
 print('Elapsed Time: ', time()-start)
