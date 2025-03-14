@@ -68,6 +68,48 @@ Setting Parameters:
 ![image](https://github.com/user-attachments/assets/67e8ff12-97f8-4637-91b5-6ed6977ae566)
 
 
+## Model Training and Saving:
+
+- In main.py you can specify which models to train and save. For example:
+
+![image](https://github.com/user-attachments/assets/4654a1bb-311d-4b30-bbfb-8898c14877c5)
+
+
+## Output Files:
+
+- Trained models are saved in the models/ folder.
+
+
+## Project Structure
+
+The project consists of the following files and folders:
+
+- **main.py:** Contains the main training and evaluation loop.
+
+- **data.py:** Manages data loading and preprocessing operations.
+
+- **vectorization.py:** Defines text vectorization methods (e.g. TF-IDF).
+
+- **classification.py:** Defines classification models (e.g. Decision Tree, SVM).
+
+- **nlp.py:** Contains operations related to natural language processing (NLP) (e.g. stopword extraction).
+
+- **train.py:** Contains model training and evaluation functions.
+
+- **data/news.json:** Used news text dataset.
+
+- **models/:** Folder where trained models are saved.
+
+
+## Results
+
+When the project is run, a classification report (precision, recall, F1-score) and accuracy score (accuracy) are obtained for each model. The best performing models are saved in the models/ folder.
+
+Sample Output:
+
+![image](https://github.com/user-attachments/assets/e5a3a23b-f08e-48c8-b0cd-895d022d8817)
+
+
 
 
 
