@@ -15,7 +15,7 @@ class Classifier(Enum):
     SVM = 4
     RANDFOREST = 5
     LOGREG = 6
-    GRADBOOSTING = 7 # Benim eklediğim kod
+    GRADBOOSTING = 7 
 
 
 class ClassificationMethodManager:
