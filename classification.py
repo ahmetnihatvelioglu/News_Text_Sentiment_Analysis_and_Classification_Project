@@ -40,6 +40,6 @@ class ClassificationMethodManager:
         elif methodName == 'LOGREG':
             return LogisticRegression(random_state=42)
         elif methodName == 'GRADBOOSTING':
-            return GradientBoostingClassifier(random_state=42) # Benim eklediğim kod
+            return GradientBoostingClassifier(random_state=42) 
         else:
             raise ValueError('Method not recognized')
